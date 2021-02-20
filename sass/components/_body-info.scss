@@ -1,0 +1,33 @@
+ul {
+
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+@each $title in h1, h2, h3, p {
+.#{$title} {
+    margin: 0;
+}
+}
+
+*, *::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: color ('white-color');
+    color: color ('primary-text-color');
+    margin: 0;
+  }
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}

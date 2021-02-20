@@ -1,0 +1,35 @@
+header {
+  border-bottom: 1px solid #ECECEC;
+  background-color: color('white-color');
+}
+
+.header {
+  @extend %display-align;
+  height: inherit;
+  
+  &-nav {
+      @extend %display-align;
+  }
+}
+
+.header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+
+.header-logo {
+  background-color: color ("white-color");
+}
+
+.logoWeb {
+  color: color ("accent-color");
+}
+
+.footer-logoStudio {
+  color: color ("white-color");
+}
+
+.header-logoStudio {
+  color: color ("secondary-text-color");
+}
