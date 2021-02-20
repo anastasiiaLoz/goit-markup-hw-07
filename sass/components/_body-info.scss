@@ -1,3 +1,14 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --banner-footer-background-color: #2f303a;
+  --banner-text-color: rgba(255, 255, 255, 0.6);
+}
+
 ul {
 
 padding: 0;
@@ -19,8 +30,8 @@ list-style-type: none;
 body {
     font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
-    background-color: color ('white-color');
-    color: color ('primary-text-color');
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
     margin: 0;
   }
 

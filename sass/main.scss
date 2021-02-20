@@ -1,12 +1,19 @@
-@import './utils/variables';
-@import './utils/colors-map-get';
-@import './components/header';
-@import './components/body-info';
-@import './components/logo';
 @import './base/normalize';
-@import './utils/placeholder';
-@import './utils/mixin';
+@import './utils/variables';
+@import './components/body-info';
+@import './components/header';
+@import './components/logo';
 @import './components/website_navigation';
+@import './components/authentication-navigation';
+@import './components/banner';
+@import './components/specialties-section';
+@import './components/what-we-do-section';
+@import './components/our-team-section';
+@import './components/footer';
+@import './components/portfolio';
+@import './components/Icons';
+@import './components/modal-window'
+
 
 
 
